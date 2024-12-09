@@ -2,6 +2,7 @@ import os
 import sys
 from sqlalchemy import Column, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship, declarative_base
+
 from eralchemy2 import render_er
 
 Base = declarative_base()
